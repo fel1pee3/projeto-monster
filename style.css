@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+
+:root{
+    --cor-lata1: #6BD41A;
+    --cor-lata2: #7dc1d1;
+    --cor-lata3: #75b836;
+    --cor-lata4: #d4d4d4;
+    --cor-lata5: #613e8a;
+    --cor-lata6: #f4383f;
+    --cor-lata7: #ffcb09;
+    --cor-lata8: #f14f6a;
+    --cor-lata9: #e47325;
+    --cor-lata10: #e0cba7;
+    --cor-lata11: #0eb3e4;
+    --cor-lata12: #5bb935;
+    --cor-lata13: #f5a677;
+
+
+
+    --fonte-destaque: font-family: 'Bowlby One', sans-serif;
+    --fonte-normal: font-family: 'Anton', sans-serif;
+    --fonte-simples: font-family: 'Roboto', sans-serif;;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("img/fundo2-escuro.jpg");
+    background-size: contain;
+    color: #fff;
+}
+.img-logo{
+    width: 140px;
+    margin: 8px 40px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+li a{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.3em;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+li a:hover{
+    color: #6BD41A;
+    transition: 0.3s;
+}
+li a:active{
+    color: #6fff00;
+}
+main{
+    width: 100%;
+    height: calc(100% - 88px);
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+.infos{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 40px;
+}
+h1{
+    font-family: 'Bowlby One', sans-serif;
+    font-size: 3em; 
+    color: #fff;
+}
+h1 span{
+    font-family: 'Bowlby One', sans-serif;
+    color: #6BD41A;
+}
+.sabor{
+    font-size: 2em;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    color: #fff;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 18px;
+    color: #fff;
+    background-color: transparent;
+    border-left: 5px solid #24bc39;
+    border-right: 3px solid #fff;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+button:hover{
+    transition: .5s;
+    border-right: 3px solid #24bc39;
+    border-top: 3px solid #24bc39;
+    border-bottom: 3px solid #24bc39;
+}
+button:active{
+    border-left: 5px solid #6BD41A;
+    border-right: 3px solid #6BD41A;
+    border-top: 3px solid #6BD41A;
+    border-bottom: 3px solid #6BD41A;
+}
+button a{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+.latas-grandes{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.latas-grandes img{
+    width: 180px;
+    transform: rotate(-15deg);
+}
+.latas-pequenas{
+    position: relative;
+    left: 440px;
+    top: -70px;
+    width: 419px;
+    height: 60px;
+}
+.latas-pequenas img{
+    width: 22px; 
+    margin: 3px;
+}
+.latas-pequenas img:hover{
+    position: relative;
+    top: -10px;
+}
+.latas-pequenas img:active{
+    box-shadow: 0px 0px 15px 1px #6bd41a4f;
+}
+
+.circulo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #75b836;
+    clip-path: circle(550px at right 890px);
+}
+.circulo2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #75b836;
+    clip-path: circle(400px at left 960px);
+}
+
+
